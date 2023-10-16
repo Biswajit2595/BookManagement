@@ -31,19 +31,19 @@ Before you start, make sure you have the following software and tools installed:
    ```
 
 
-# 2 Go to the Directory
+## 2 Go to the Directory
 ```bash
     cd bookmanagement
     Install the dependencies:
 ```
 
-# 3 Install the Node Modules
+## 3 Install the Node Modules
 ```bash
     npm install
     Set up your environment variables:
 ```
 
- # 4 Create a .env file in the root directory and define the following variables:
+ ## 4 Create a .env file in the root directory and define the following variables:
 makefile
 ```bash
  MONGO_URI=your-mongodb-connection-string
