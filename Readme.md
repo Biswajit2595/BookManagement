@@ -36,7 +36,7 @@ Before you start, make sure you have the following software and tools installed:
     Copy code
     cd book-management-app
     Install the dependencies:
-    ```
+```
 
 
 ```bash
@@ -53,26 +53,28 @@ makefile
     PORT=4000
     SECRET_KEY=your-secret-key
     Start the server:
-    ```
+```
 
-
-    ```bash
+```bash
         Copy code
         npm start
         The app should now be running at http://localhost:4000.
-        ```
+```
 
 
-Usage
+### Usage
 Sign up for an account.
 Log in with your credentials.
 Create, edit, or view books.
 Log out when you're done.
-API Endpoints
+
+### API Endpoints
+
 /signup (POST): Create a new user account.
 /login (POST): Log in to the app.
 /books/add (POST): Add a new book.
 /books/update/:id (PATCH): Update a book by ID.
 /books/:id (GET): View a book by ID.
-Contributing
+
+## Contributing
 Contributions are welcome! If you find any issues or have suggestions for improvements, please open an issue or submit a pull request.
