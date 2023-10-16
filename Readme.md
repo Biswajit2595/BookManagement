@@ -26,38 +26,41 @@ Before you start, make sure you have the following software and tools installed:
 ## Getting Started
 1. **Clone the repository** to your local machine:
    ```bash
-   Copy code
    git clone https://github.com/Biswajit2595/BookManagement.git
    Navigate to the project directory:
+   ```
 
 
 
 ```bash
-Copy code
-cd book-management-app
-Install the dependencies:
+    Copy code
+    cd book-management-app
+    Install the dependencies:
+    ```
 
 
 ```bash
-Copy code
-npm install
-Set up your environment variables:
-
+    Copy code
+    npm install
+    Set up your environment variables:
+```
 
 Create a .env file in the root directory and define the following variables:
 makefile
 ```bash
-Copy code
-MONGO_URI=your-mongodb-connection-string
-PORT=4000
-SECRET_KEY=your-secret-key
-Start the server:
+    Copy code
+    MONGO_URI=your-mongodb-connection-string
+    PORT=4000
+    SECRET_KEY=your-secret-key
+    Start the server:
+    ```
 
 
     ```bash
-    Copy code
-    npm start
-    The app should now be running at http://localhost:4000.
+        Copy code
+        npm start
+        The app should now be running at http://localhost:4000.
+        ```
 
 
 Usage
