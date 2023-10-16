@@ -31,44 +31,39 @@ Before you start, make sure you have the following software and tools installed:
    ```
 
 
-
+# 2 Go to the Directory
 ```bash
-    Copy code
-    cd book-management-app
+    cd bookmanagement
     Install the dependencies:
 ```
 
-
+# 3 Install the Node Modules
 ```bash
-    Copy code
     npm install
     Set up your environment variables:
 ```
 
-Create a .env file in the root directory and define the following variables:
+ # 4 Create a .env file in the root directory and define the following variables:
 makefile
 ```bash
-    Copy code
-    MONGO_URI=your-mongodb-connection-string
-    PORT=4000
-    SECRET_KEY=your-secret-key
-    Start the server:
+ MONGO_URI=your-mongodb-connection-string
+ PORT=4000
+ Start the server:
 ```
 
 ```bash
-        Copy code
-        npm start
-        The app should now be running at http://localhost:4000.
+  npm start
+  The app should now be running at http://localhost:4000.
 ```
 
 
-### Usage
+## Usage
 Sign up for an account.
 Log in with your credentials.
 Create, edit, or view books.
 Log out when you're done.
 
-### API Endpoints
+## API Endpoints
 
 /signup (POST): Create a new user account.
 /login (POST): Log in to the app.
